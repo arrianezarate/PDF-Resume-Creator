@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pdf_creator_resume
 {
-    public partial class Form1 : Form
+    public partial class _frmPDFgenerator : Form
     {
-        public Form1()
+        public _frmPDFgenerator()
         {
             InitializeComponent();
         }
