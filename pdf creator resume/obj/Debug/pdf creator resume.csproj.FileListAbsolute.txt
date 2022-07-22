@@ -1,0 +1,21 @@
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\pdf creator resume.exe.config
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\pdf creator resume.exe
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\pdf creator resume.pdb
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\PdfSharp.Charting.dll
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\PdfSharp.dll
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\PdfSharp.xml
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\PdfSharp.Charting.xml
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.csproj.AssemblyReference.cache
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.csproj.SuggestedBindingRedirects.cache
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf_creator_resume._frmPDFgenerator.resources
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf_creator_resume._frmJSON.resources
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf_creator_resume.Properties.Resources.resources
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.csproj.GenerateResource.cache
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.csproj.CoreCompileInputs.cache
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.csproj.CopyComplete
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.exe
+C:\Users\arriane\source\repos\pdf creator resume\pdf creator resume\obj\Debug\pdf creator resume.pdb
