@@ -23,6 +23,8 @@ namespace pdf_creator_resume
 
         private void _btnDisplay_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Generating JSON file.....");
+
             try
             {
                 var resume = GetResume();
@@ -45,7 +47,6 @@ namespace pdf_creator_resume
             public string Name { get; set; }
             public string Address { get; set; }
             public string Github { get; set; }
-            public string Facebook { get; set; }
             public string Message { get; set; }
             public string SoftSkill_1 { get; set; }
             public string SoftSkill_2 { get; set; }
@@ -65,6 +66,8 @@ namespace pdf_creator_resume
 
         private void _btnView_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Reading JSON file.....");
+
             try
             {
                 string jsonFile;
@@ -93,9 +96,7 @@ namespace pdf_creator_resume
                 Address = "Cainta 1900",
                 ContactNumber = "09776886853",
                 Email = "arrianenic.z@gmail.com",
-                Facebook = "https://www.facebook.com/arrianenicole.zarate",
                 Github = "https://github.com/arrianezarate",
-                Message = "I have seen this job posting on https://thevahub/real-estate-virtual-assistant/ for an internship Real Estate Virtual Assistant. I want to become part of your company.",
                 SoftSkill_1 = "Critical Thinking Skills",
                 SoftSkill_2 = "Great attention to Data",
                 SoftSkill_3 = "Multi-tasking Skills",
@@ -105,7 +106,7 @@ namespace pdf_creator_resume
                 HardSkill_3 = "Web designing",
                 HardSkill_4 = "Programming and HTML Languages (C#)",
                 WorkExperience_1 = "Drive customer satisfaction through voice communications",
-                WorkExperience_2 = "Navigate through miltiple systems with a computer specifically technical skill",
+                WorkExperience_2 = "Navigate through multiple systems with a computer",
                 WorkExperience_3 = "Remained courteous and calm.",
                 WorkExperience_4 = "Listen attentively to caller needs.",
 
