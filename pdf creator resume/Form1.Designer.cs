@@ -57,6 +57,7 @@
             this._btnGenerate.TabIndex = 1;
             this._btnGenerate.Text = "GENERATE";
             this._btnGenerate.UseVisualStyleBackColor = false;
+            this._btnGenerate.Click += new System.EventHandler(this._btnGenerate_Click);
             // 
             // _btnJSON
             // 
