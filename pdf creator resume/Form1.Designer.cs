@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_frmPDFgenerator));
             this._lblCreatePDF = new System.Windows.Forms.Label();
             this._btnGenerate = new System.Windows.Forms.Button();
+            this._btnJSON = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // _lblCreatePDF
@@ -57,17 +58,31 @@
             this._btnGenerate.Text = "GENERATE";
             this._btnGenerate.UseVisualStyleBackColor = false;
             // 
+            // _btnJSON
+            // 
+            this._btnJSON.BackColor = System.Drawing.Color.HotPink;
+            this._btnJSON.Font = new System.Drawing.Font("HP Simplified Hans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._btnJSON.ForeColor = System.Drawing.Color.LavenderBlush;
+            this._btnJSON.Location = new System.Drawing.Point(372, 48);
+            this._btnJSON.Name = "_btnJSON";
+            this._btnJSON.Size = new System.Drawing.Size(84, 56);
+            this._btnJSON.TabIndex = 2;
+            this._btnJSON.Text = "JSON";
+            this._btnJSON.UseVisualStyleBackColor = false;
+            this._btnJSON.Click += new System.EventHandler(this._btnJSON_Click);
+            // 
             // _frmPDFgenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(468, 395);
+            this.ClientSize = new System.Drawing.Size(468, 125);
+            this.Controls.Add(this._btnJSON);
             this.Controls.Add(this._btnGenerate);
             this.Controls.Add(this._lblCreatePDF);
             this.Name = "_frmPDFgenerator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "PDF Creator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,6 +92,7 @@
 
         private System.Windows.Forms.Label _lblCreatePDF;
         private System.Windows.Forms.Button _btnGenerate;
+        private System.Windows.Forms.Button _btnJSON;
     }
 }
 
